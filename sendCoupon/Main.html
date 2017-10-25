@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.style1 {
+	text-align: center;
+}
+.style2 {
+	color: #990000;
+	font-size: x-large;
+}
+</style>
+</head>
+
+<body>
+<div class="style1">
+	<span class="style2">iPayTM</span><br/><br/>
+
+</div>
+
+<form action="rech.php" method="post" id="contact-area">
+	Phone No:  <input name="destination" type="text" /> <br /><br />	
+	Amount     <input name="amount" type="text" /><br /><br />
+	Operator:	<select name="cboOperator">
+					<option selected="selected">Vodafone</option>
+				</select>
+	<br/><br/>
+	Pay Using: <select name="cboPayUsing">
+					<option selected="selected">iPayTM</option>
+			  </select>
+	<br /><br />
+	
+	*UserName   <input name="txtUserName" type="text" /> <br /><br />	
+	*Password   <input name="txtPassword" type="text" /><br /><br />
+
+<input name="recharge" type="submit" value="Recharge" class="submit-button" />
+</form>
+</body>
+
+</html>
