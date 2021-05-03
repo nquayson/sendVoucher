@@ -1,4 +1,4 @@
 ﻿<?php 
-	echo 'Kyekyeku: You are not permitted, GET OUT!';
+	echo 'You are not permitted.';
 
 ?>
